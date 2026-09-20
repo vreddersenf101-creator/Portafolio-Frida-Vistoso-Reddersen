@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Servidor de registro de actividades | Módulo 6</title>
+
+  <link rel="stylesheet" href="./static/style.css">
+  <script src="./static/app.js" defer></script>
+</head>
+
+<body>
+  <div class="contenedor">
+    <header>
+      <a class="marca" href="./">Servidor de registro de actividades</a>
+      <span>PROYECTO · MÓDULO 06</span>
+    </header>
+
+    <main>
+      <section class="presentacion">
+        <p class="etiqueta">DESARROLLO BACKEND</p>
+
+        <h1>Todo comienza con una conexión.</h1>
+
+        <p>
+          Una aplicación con Node.js y Express para explorar
+          cómo responde un servidor y cómo registra cada visita.
+        </p>
+
+        <a class="enlace" href="./status">
+          Explorar respuesta JSON →
+        </a>
+        <a class="enlace enlace-secundario" href="./health">
+          Ver healthcheck →
+        </a>
+      </section>
+
+      <section class="tarjetas">
+        <article class="tarjeta estado">
+          <p class="etiqueta">EN ESTE MOMENTO</p>
+          <h2>Estado del servidor</h2>
+
+          <p id="mensaje" role="status">Consultando conexión…</p>
+
+          <p>
+            <strong id="tiempo">—</strong>
+            segundos en ejecución
+          </p>
+
+          <button id="actualizar" type="button">
+            Actualizar estado
+          </button>
+
+          <p id="ultima-consulta" class="detalle"></p>
+        </article>
+
+        <article class="tarjeta">
+          <p class="etiqueta">RECORRIDO DE UNA SOLICITUD</p>
+          <h2>¿Cómo funciona?</h2>
+
+          <ol>
+            <li>El navegador solicita una dirección.</li>
+            <li>Express identifica la ruta.</li>
+            <li>El middleware registra el acceso.</li>
+            <li>El controlador devuelve HTML o JSON.</li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      Node & Express Web App · Fundamentos del servidor
+    <p><a href="https://github.com/vreddersenf101-creator/boootcamp-modulo-6">Repositorio en GitHub ↗</a></p></footer>
+  </div>
+</body>
+</html>

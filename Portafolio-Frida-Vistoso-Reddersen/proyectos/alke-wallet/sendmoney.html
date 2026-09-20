@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Trinky Wallet | Enviar dinero</title>
+</head>
+
+<body>
+  <div class="wallet-page">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="wallet-card">
+            <a href="menu.html" class="back-link">&larr; Volver al menú</a>
+            <h1 class="mb-4">Enviar dinero</h1>
+
+            
+            <form id="searchForm" class="form-inline mb-3">
+              <input type="text" id="searchInput" class="form-control mr-2" style="flex: 1;"
+                placeholder="Buscar por nombre o alias...">
+              <button type="submit" class="btn btn-outline-primary">Buscar</button>
+            </form>
+
+            <button id="showAddContactBtn" type="button" class="btn btn-sm btn-outline-primary mb-3">
+              + Agregar nuevo contacto
+            </button>
+
+            
+            <form id="addContactForm" class="border rounded p-3 mb-3" style="display: none;">
+              <div class="form-group">
+                <label for="contactNombre">Nombre:</label>
+                <input type="text" id="contactNombre" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="contactAlias">Alias:</label>
+                <input type="text" id="contactAlias" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="contactCBU">CBU (22 dígitos):</label>
+                <input type="text" id="contactCBU" class="form-control" maxlength="22">
+              </div>
+              <div id="contactFormAlert"></div>
+              <button type="submit" class="btn btn-primary">Guardar contacto</button>
+              <button type="button" id="cancelAddContactBtn" class="btn btn-link">Cancelar</button>
+            </form>
+
+            
+            <div id="contactsList" class="mb-3"></div>
+
+            
+            <div id="sendSection" style="display: none;">
+              <div class="form-group">
+                <label for="sendAmount">Monto a enviar:</label>
+                <input type="number" id="sendAmount" class="form-control" placeholder="0" min="1" step="1" required>
+              </div>
+              <button id="sendMoneyBtn" type="button" class="btn btn-primary">Enviar dinero</button>
+            </div>
+
+            <p id="confirmationMsg" class="mt-3"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/jquery-3.6.0.min.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/sendmoney.js"></script>
+<div style="padding:16px;text-align:center"><a href="https://github.com/vreddersenf101-creator/alke-wallet" style="color:inherit;text-decoration:underline">Repositorio en GitHub ↗</a></div></body>
+
+</html>

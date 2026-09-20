@@ -1,0 +1,19 @@
+{
+  "name": "portafolio-frida-vistoso-reddersen",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de Frida Rosa Vistoso Reddersen",
+  "private": true,
+  "main": "server.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test servidor-registro-actividades/test/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

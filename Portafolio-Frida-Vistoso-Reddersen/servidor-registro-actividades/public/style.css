@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f5ed;
+  color: #183c36;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.contenedor {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 28px 0;
+  border-bottom: 1px solid #d7ded2;
+}
+
+.marca {
+  color: #183c36;
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+header span,
+.etiqueta {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.presentacion {
+  max-width: 760px;
+  padding: 60px 0 40px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: clamp(40px, 6vw, 70px);
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.presentacion > p {
+  line-height: 1.7;
+}
+
+.enlace {
+  display: inline-block;
+  padding: 15px 22px;
+  border-radius: 8px;
+  background: #194d40;
+  color: white;
+  text-decoration: none;
+}
+
+.enlace-secundario {
+  background: #31594b;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 20px 0 48px;
+}
+
+.tarjeta {
+  padding: 30px;
+  border-radius: 18px;
+  background: #e7eddf;
+}
+
+.estado {
+  background: #183f36;
+  color: white;
+}
+
+h2 {
+  margin-top: 18px;
+}
+
+#tiempo {
+  font-size: 42px;
+}
+
+button {
+  padding: 12px 18px;
+  border: 1px solid #b2c8b9;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #31594b;
+}
+
+.enlace:hover {
+  background: #31594b;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.detalle {
+  font-size: 12px;
+}
+
+li {
+  margin: 18px 0;
+  line-height: 1.5;
+}
+
+footer {
+  padding: 24px 0;
+  border-top: 1px solid #d7ded2;
+  font-size: 12px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #91b751;
+  outline-offset: 4px;
+}
+
+@media (max-width: 650px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-wrap: wrap;
+  }
+
+  .presentacion {
+    padding-top: 35px;
+  }
+}
