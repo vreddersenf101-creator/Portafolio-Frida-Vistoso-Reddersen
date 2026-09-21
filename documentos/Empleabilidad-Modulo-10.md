@@ -63,7 +63,7 @@ LinkedIn: https://www.linkedin.com/in/frida-vistoso-reddersen-66437b236
 
 ## Evidencias de LinkedIn
 
-Actualicé el titular para mostrar mi formación tecnológica y personalicé la dirección del perfil.
+Actualicé el titular para mostrar mi formación tecnológica y personalicé la dirección del perfil. Incorporé mi nombre, una fotografía personal y un banner para facilitar mi identificación.
 
 ![Presentación del perfil](evidencias/linkedin-presentacion.png)
 

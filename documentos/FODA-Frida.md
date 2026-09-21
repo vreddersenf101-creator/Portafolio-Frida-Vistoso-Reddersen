@@ -16,7 +16,7 @@ Mi objetivo es acceder a una oportunidad trainee o junior y fortalecer mi autono
 2. Necesito practicar Git y publicación para trabajar con mayor autonomía.
 3. Debo profundizar en SQL, relaciones de datos, autenticación y pruebas.
 4. Tengo un guion de pitch; debo ensayarlo y comprobar que no supere 60 segundos.
-5. Debo completar la foto profesional, revisar la experiencia formativa y mantener mis documentos actualizados.
+5. Debo revisar la experiencia formativa publicada y mantener coherencia entre LinkedIn, el CV y el portafolio.
 
 ## Oportunidades
 
