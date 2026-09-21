@@ -21,7 +21,7 @@ HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js y Express. Las bibliotecas dis
 
 frida.vistoso.dev@gmail.com
 
-[LinkedIn](https://www.linkedin.com/in/frida-rosa-vistoso-reddersen-a05694438)
+[LinkedIn](https://www.linkedin.com/in/frida-vistoso-reddersen-66437b236)
 
 ## Repositorios de los proyectos
 
@@ -36,3 +36,7 @@ frida.vistoso.dev@gmail.com
 ## Organización del proyecto
 
 [Tablero de ASTECNOR y empleabilidad en Trello](https://trello.com/b/6aaf1710c21d41cd942a9ba3/astecnor-modulo-8-10-frida) · Requiere acceso al tablero.
+
+## Desarrollo profesional
+
+El portafolio incluye una matriz FODA con cinco puntos por categoría y un plan de mejora. Los documentos académicos, las evidencias de LinkedIn y el CV se encuentran en la sección de contacto.

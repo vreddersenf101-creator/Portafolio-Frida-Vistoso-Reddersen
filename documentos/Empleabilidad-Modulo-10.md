@@ -8,15 +8,15 @@ Desarrolladora Fullstack JavaScript en formación | HTML, CSS, Node.js y Express
 
 ## Acerca de
 
-Soy Frida Vistoso Reddersen, desarrolladora Fullstack JavaScript en formación en el bootcamp Talento Digital. Me interesa crear aplicaciones web claras y comprender cómo se conectan las interfaces con los datos y los servicios del servidor.
+Soy Frida Vistoso Reddersen, desarrolladora Fullstack JavaScript en formación en Talento Digital. Estoy aprendiendo a crear aplicaciones web, desde su interfaz hasta la conexión con bases de datos.
 
-Durante mi formación he trabajado en Alke Wallet, una simulación de billetera digital, y ASTECNOR, un gestor de charlas de prevención de riesgos. Estos proyectos me han permitido practicar formularios, validación de entradas, manejo de registros y presentación de información.
+Durante el bootcamp he desarrollado proyectos como Alke Wallet, una simulación de billetera digital; ASTECNOR, un gestor de charlas de prevención de riesgos; y un servidor de registro de actividades. Estos proyectos me han permitido practicar formularios, validaciones y organización del código.
 
-Mi base técnica incluye HTML, CSS, JavaScript, Node.js y Express. También he trabajado con PostgreSQL y Sequelize en el backend de ASTECNOR. Continúo reforzando mi comprensión de las relaciones entre datos, la autenticación y las pruebas.
+Mi formación incluye HTML, CSS, JavaScript, Bootstrap, jQuery, Node.js y Express, además de PostgreSQL y Sequelize. También he utilizado Git, GitHub y GitHub Pages para guardar versiones y publicar mi portafolio.
 
-Procuro organizar el código por responsabilidades y revisar qué ocurre cuando una entrada es incorrecta o una operación falla. Me interesa comprender las decisiones detrás de una solución, documentar lo aprendido y mejorar a partir de observaciones concretas.
+Me interesa comprender cómo funciona cada solución, revisar los errores y mejorar la experiencia de quienes utilizan una aplicación. Procuro trabajar de forma organizada, documentar mis aprendizajes y aplicar las observaciones que recibo.
 
-Busco una oportunidad trainee o junior en desarrollo web donde pueda aportar mi formación, aprender de un equipo y asumir responsabilidades de forma gradual. Puedes contactarme en frida.vistoso.dev@gmail.com.
+Busco una oportunidad trainee o junior en desarrollo web para aportar mis conocimientos y seguir aprendiendo junto a un equipo. Puedes conocer mis proyectos en mi portafolio y contactarme en frida.vistoso.dev@gmail.com.
 
 ## Experiencia formativa y proyectos
 
@@ -59,4 +59,14 @@ Sigo fortaleciendo mi base en JavaScript y desarrollo backend. Me llevo una idea
 
 Portafolio: https://vreddersenf101-creator.github.io/Portafolio-Frida-Vistoso-Reddersen/
 
-LinkedIn: https://www.linkedin.com/in/frida-rosa-vistoso-reddersen-a05694438
+LinkedIn: https://www.linkedin.com/in/frida-vistoso-reddersen-66437b236
+
+## Evidencias de LinkedIn
+
+Actualicé el titular para mostrar mi formación tecnológica y personalicé la dirección del perfil.
+
+![Presentación del perfil](evidencias/linkedin-presentacion.png)
+
+Actualicé el Acerca de en cinco párrafos para explicar mi formación, proyectos, herramientas y objetivos laborales.
+
+![Acerca de](evidencias/linkedin-acerca-de.png)
